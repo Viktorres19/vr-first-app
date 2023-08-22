@@ -1,5 +1,6 @@
 import './App.css'
 import user from "./user.json"
+import MyComponent from "../components/NewComponent.jsx";
 
 const Greeting = (props) => {
   /*В res попадуть всі інші атрибути*/
@@ -36,6 +37,7 @@ const App = () => {
         aria-hidden
         mark={true}
       />
+      <MyComponent />
     </>
   )
 }
