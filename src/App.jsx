@@ -1,6 +1,7 @@
 import './App.css'
-import user from "./user.json"
-import MyComponent from "../components/NewComponent.jsx";
+import user from './user.json'
+import MyComponent from '../components/NewComponent.jsx'
+import FirstClassComponent from '../components/FirstClassComponent.jsx'
 
 const Greeting = (props) => {
   /*В res попадуть всі інші атрибути*/
@@ -38,6 +39,7 @@ const App = () => {
         mark={true}
       />
       <MyComponent />
+      <FirstClassComponent />
     </>
   )
 }
