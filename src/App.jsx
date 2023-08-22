@@ -2,6 +2,7 @@ import './App.css'
 import user from './user.json'
 import MyComponent from '../components/NewComponent.jsx'
 import FirstClassComponent from '../components/FirstClassComponent.jsx'
+import SomeFunctionalComponent from '../components/SomeFunctionalComponent.jsx'
 
 const Greeting = (props) => {
   /*В res попадуть всі інші атрибути*/
@@ -40,6 +41,7 @@ const App = () => {
       />
       <MyComponent />
       <FirstClassComponent />
+      <SomeFunctionalComponent />
     </>
   )
 }
